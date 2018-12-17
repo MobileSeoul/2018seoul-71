@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="toolbar_icon_margin_right">5dp</dimen>
+    <dimen name="toolbar_icon_margin_side">10dp</dimen>
+    <dimen name="diary_card_text_padding">2dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="card_contents_padding">15dp</dimen>
+    <dimen name="card_layout_margin">3dp</dimen>
+    <dimen name="card_layout_padding">3dp</dimen>
+    <dimen name="card_radius">3dp</dimen>
+    <dimen name="spacing_double">16dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_treble">24dp</dimen>
+
+</resources>

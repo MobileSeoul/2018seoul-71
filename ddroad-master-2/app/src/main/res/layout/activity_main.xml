@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/btnbg"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/btn_dust"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:tag="1"
+            android:src="@drawable/fragment_home"
+            android:background="@color/btnbg_color"
+            android:scaleType="centerInside"
+            android:text="먼지" />
+
+        <ImageButton
+            android:id="@+id/btn_map"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/fragment_placeholder"
+            android:background="@color/btnbg_color"
+            android:scaleType="centerInside"
+            android:tag="2"
+            android:text="지도" />
+
+        <ImageButton
+            android:id="@+id/btn_diary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/fragment_calendar"
+            android:background="@color/btnbg_color"
+            android:scaleType="centerInside"
+            android:tag="3"
+            android:text="다이어리" />
+
+
+        <ImageButton
+            android:id="@+id/btn_board"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/fragment_usershape"
+            android:background="@color/btnbg_color"
+            android:scaleType="centerInside"
+            android:tag="4"
+            android:text="게시판" />
+
+        <ImageButton
+            android:id="@+id/btn_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/fragment_setting"
+            android:background="@color/btnbg_color"
+            android:scaleType="centerInside"
+            android:tag="5"
+            android:text="설정" />
+
+    </LinearLayout>
+
+</LinearLayout>

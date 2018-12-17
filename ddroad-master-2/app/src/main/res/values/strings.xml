@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">댕댕로</string>
+    <string name="activiy_name">액티비티 이동</string>
+
+    <!-- 권한 화면 -->
+    <string name="permission_checking">권한 확인중...</string>
+    <string name="permission_setting_title">권한 설정</string>
+    <string name="permission_setting_message">앱을 실행하기 위해서는 권한 설정을 해야 합니다!</string>
+    <string name="permission_setting_restart">권한을 설정하고 다시 실행해주세요!</string>
+
+    <string name="guide_message_4">There is no diary created on that day.</string>
+
+    <string name="customize">커스텀</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="undo">원래대로</string>
+</resources>

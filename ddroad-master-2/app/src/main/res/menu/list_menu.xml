@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/newPost"
+        android:title="새 글 등록"
+        android:icon="@drawable/diary_write"
+        app:showAsAction="always" />
+</menu>
